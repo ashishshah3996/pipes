@@ -1,0 +1,18 @@
+<h1>{{ name }}</h1>
+<h1>{{ name | lowercase }}</h1>
+<h1>{{ name | uppercase }}</h1>
+<h1>{{ message | titlecase }}</h1>
+<h1>{{ name | slice:3 }}</h1>
+<h1>{{ name | slice:3:5 }}</h1> 
+<h1>{{ person | json }}</h1> 
+
+<h1>{{ 0.45 | percent }}</h1> 
+<h1>{{ 25 | currency }}</h1> 
+<h1>{{ 25 | currency:"CAD" }}</h1> 
+<h1>{{ 25 | currency:"GBP" }}</h1> 
+<h1>{{ 25 | currency:'CAD':'code' }}</h1> 
+
+<h1>{{ date }}</h1> 
+<h1>{{ date | date:'short' }}</h1> 
+<h1>{{ date | date:'shortDate' }}</h1> 
+<h1>{{ date | date:'shortTime' }}</h1>  
